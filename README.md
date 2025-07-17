@@ -1,3 +1,6 @@
+
+
+```mermaid
 graph TB
     subgraph "OpenShift/Kubernetes Cluster"
         subgraph "GitLab Namespace"
@@ -61,3 +64,8 @@ graph TB
     PROM --> ALERT
     GL --> NFS
     BACKUP --> NFS
+```
+
+itemName=vstirbu.vscode-mermaid-preview).
+
+Let me know if you'd like a rendered image version too for platforms that don't support Mermaid natively.
